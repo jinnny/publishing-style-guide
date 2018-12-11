@@ -1,0 +1,72 @@
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+*, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+body.ko *,
+body.en * {
+  font-family: $korea;
+  i.icon {
+    font-family: 'Icons';
+  }
+}
+
+body.zh * {
+  font-family: $china;
+  i.icon {
+    font-family: 'Icons';
+  }
+}
+
+body.ja * {
+  font-family: $japan;
+  i.icon {
+    font-family: 'Icons';
+  }
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:link {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+}
+
+button {
+  cursor: pointer;
+  &:focus {
+  }
+}
+
+strong {
+  color: inherit;
+  font-size: inherit;
+}
+
+i {
+  font-style: normal;
+}

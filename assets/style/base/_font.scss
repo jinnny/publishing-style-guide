@@ -1,0 +1,91 @@
+/**
+ * Created by Eunjin Yang on 2018. 3. 6.
+ * Corp : Kstar Group
+ * Github : http://github.com/jinny920311
+ */
+
+/*300 : 가장 얇음, 400 : 중간, 500 : 가장 굵음*/
+/*NotoSansKR*/
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 300;
+  src: url('/assets/fonts/NotoSansKR-Light.eot');
+  src: url('/assets/fonts/NotoSansKR-Light.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/NotoSansKR-Light.woff') format('woff'),
+  url('/assets/fonts/NotoSansKR-Light.otf') format('opentype');
+  src: local(※), url('/assets/fonts/NotoSansKR-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 400;
+  src: url('/assets/fonts/NotoSansKR-Regular.eot');
+  src: url('/assets/fonts/NotoSansKR-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/NotoSansKR-Regular.woff') format('woff'),
+  url('/assets/fonts/NotoSansKR-Regular.otf') format('opentype');
+  src: local(※), url('/assets/fonts/NotoSansKR-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans KR';
+  font-weight: 500;
+  src: url('/assets/fonts/NotoSansKR-Medium.eot');
+  src: url('/assets/fonts/NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/NotoSansKR-Medium.woff') format('woff'),
+  url('/assets/fonts/NotoSansKR-Medium.otf') format('opentype');
+  src: local(※), url('/assets/fonts/NotoSansKR-Medium.woff') format('woff');
+}
+/*NotoSansSC*/
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-weight: 300;
+  src: url('/assets/fonts/NotoSansSC-Light.eot');
+  src: url('/assets/fonts/NotoSansSC-Light.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/NotoSansSC-Light.woff') format('woff'),
+  url('/assets/fonts/NotoSansSC-Light.otf') format('opentype');
+  src: local(※), url('/assets/fonts/NotoSansSC-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-weight: 400;
+  src: url('/assets/fonts/NotoSansSC-Regular.eot');
+  src: url('/assets/fonts/NotoSansSC-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/NotoSansSC-Regular.woff') format('woff'),
+  url('/assets/fonts/NotoSansSC-Regular.otf') format('opentype');
+  src: local(※), url('/assets/fonts/NotoSansSC-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  font-weight: 500;
+  src: url('/assets/fonts/NotoSansSC-Medium.eot');
+  src: url('/assets/fonts/NotoSansSC-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/NotoSansSC-Medium.woff') format('woff'),
+  url('/assets/fonts/NotoSansSC-Medium.otf') format('opentype');
+  src: local(※), url('/assets/fonts/NotoSansSC-Medium.woff') format('woff');
+}
+/*NotoSansJP*/
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 300;
+  src: url('/assets/fonts/NotoSansJP-Light.eot');
+  src: url('/assets/fonts/NotoSansJP-Light.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/NotoSansJP-Light.woff') format('woff'),
+  url('/assets/fonts/NotoSansJP-Light.otf') format('opentype');
+  src: local(※), url('/assets/fonts/NotoSansJP-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 400;
+  src: url('/assets/fonts/NotoSansJP-Regular.eot');
+  src: url('/assets/fonts/NotoSansJP-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/NotoSansJP-Regular.woff') format('woff'),
+  url('/assets/fonts/NotoSansJP-Regular.otf') format('opentype');
+  src: local(※), url('/assets/fonts/NotoSansJP-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Noto Sans JP';
+  font-weight: 500;
+  src: url('/assets/fonts/NotoSansJP-Medium.eot');
+  src: url('/assets/fonts/NotoSansJP-Medium.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/NotoSansJP-Medium.woff') format('woff'),
+  url('/assets/fonts/NotoSansJP-Medium.otf') format('opentype');
+  src: local(※), url('/assets/fonts/NotoSansJP-Medium.woff') format('woff');
+}
