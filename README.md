@@ -3,6 +3,7 @@
 골자는 semantic UI를 쓰되, 불필요한 부분은 제거한 소스입니다.
 기본은 test 에 있는 형태로 사용하며, 프로젝트에 따라, 컬러, 모양 등은 따로 커스텀을 할 예정입니다.
 
+
 ##커스텀 내용
 1. 모든 태그에 font-family 제거 (다국어 대체를 위해 _fonts.scss를 쓰기 위함)
 2. margin 값 제거 (h1-h6, p)
@@ -14,6 +15,7 @@
 8. input의 안쪽 shadow 제거 (ios 문제, -webkit-appearance: inherit)
 9. mark 태그의 배경색 투명하게 변경, 폰트색 상속값으로 변경
 10. 아이콘 폰트 및 이미지 경로 변경 (assets 폴더에 함께 움직이기 위함)
+
 
 ##style 구조
 > base/
