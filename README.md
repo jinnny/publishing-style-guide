@@ -1,4 +1,4 @@
-#semantic UI custom
+#publishing-style-guide
 
 골자는 semantic UI를 쓰되, 불필요한 부분은 제거한 소스입니다.
 기본은 test 에 있는 형태로 사용하며, 프로젝트에 따라, 컬러, 모양 등은 따로 커스텀을 할 예정입니다.
