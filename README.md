@@ -1,10 +1,12 @@
-#publishing-style-guide
+publishing-style-guide
+======================
 
 골자는 semantic UI를 쓰되, 불필요한 부분은 제거한 소스입니다.
 기본은 test 에 있는 형태로 사용하며, 프로젝트에 따라, 컬러, 모양 등은 따로 커스텀을 할 예정입니다.
 
 
-##커스텀 내용
+커스텀 내용
+-----------
 1. 모든 태그에 font-family 제거 (다국어 대체를 위해 _fonts.scss를 쓰기 위함)
 2. margin 값 제거 (h1-h6, p)
 3. 테두리 라운드 0 처리 (border-radius: 0)
@@ -17,7 +19,9 @@
 10. 아이콘 폰트 및 이미지 경로 변경 (assets 폴더에 함께 움직이기 위함)
 
 
-##style 구조
+style 구조
+-----------
+
 > base/
 >> _reset.scss  (초기화)  <br>
 >> _fonts.scss  (폰트)<br> 
@@ -47,6 +51,8 @@
 
 >–index.scss(index.css)  메인 파일) 
 
-###구조 네이밍 규칙
+구조 네이밍 규칙
+-----------
+
 1. 임포트 될 파일은 파일명 앞에 언더바(_)를 사용해야합니다. ex) _main.scss
 1. 단어와 단어사이는 하이픈(-)을 사용해야합니다. ex) _main-content.scss
